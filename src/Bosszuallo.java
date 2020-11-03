@@ -45,10 +45,9 @@ public abstract class Bosszuallo implements Szuperhos {
 
     @Override
     public String toString() {
-        return "Bosszuallo{" +
+        return "Bosszuallo" +
                 "szuperero=" + szuperero +
                 ", vanEGyengesege=" + vanEGyengesege +
-                ", legyoziE=" + legyoziE +
-                '}';
+                ", legyoziE=" + legyoziE ;
     }
 }

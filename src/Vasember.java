@@ -31,6 +31,6 @@ public class Vasember extends Bosszuallo implements Milliardos {
 
     @Override
     public String toString() {
-        return super.toString()+"Vasember szuperereje:"+getSzuperero();
+        return "Vasember" + "szuperereje=" + getSzuperero() ;
     }
 }

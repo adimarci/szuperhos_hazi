@@ -28,4 +28,9 @@ public class Batman extends Bosszuallo implements Szuperhos,Milliardos {
     public boolean megmentiAVilagot() {
         return false;
     }
+
+    @Override
+    public String toString() {
+        return "Batman" + "leleményessége=" + lelemenyesseg ;
+    }
 }
